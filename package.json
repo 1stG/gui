@@ -1,0 +1,71 @@
+{
+  "name": "@gui/angular",
+  "version": "0.1.0",
+  "description": "1stG UI system",
+  "repository": "git@github.com:1stg/gui.git",
+  "author": "JounQin <admin@1stg.me>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "start-storybook",
+    "build": "ts-node build.ts",
+    "pub": "yarn publish dist"
+  },
+  "peerDependencies": {
+    "@angular/cdk": "^7.3.7",
+    "@angular/common": "^7.2.15",
+    "@angular/core": "^7.2.15",
+    "@angular/forms": "^7.2.15",
+    "@angular/platform-browser": "^7.2.15",
+    "@angular/platform-browser-dynamic": "^7.2.15",
+    "rxjs": "^6.5.1",
+    "tslib": "^1.9.3",
+    "zone.js": "^0.9.1"
+  },
+  "devDependencies": {
+    "@angular/cdk": "^7.3.7",
+    "@angular/cli": "^7.3.9",
+    "@angular/common": "^7.2.15",
+    "@angular/compiler": "^7.2.15",
+    "@angular/compiler-cli": "^7.2.15",
+    "@angular/core": "^7.2.15",
+    "@angular/forms": "^7.2.15",
+    "@angular/platform-browser": "^7.2.15",
+    "@angular/platform-browser-dynamic": "^7.2.15",
+    "@babel/core": "^7.4.4",
+    "@storybook/addon-a11y": "^5.0.11",
+    "@storybook/addon-actions": "^5.0.11",
+    "@storybook/addon-console": "^1.1.0",
+    "@storybook/addon-knobs": "^5.0.11",
+    "@storybook/addon-links": "^5.0.11",
+    "@storybook/addon-notes": "^5.0.11",
+    "@storybook/addon-storysource": "^5.0.11",
+    "@storybook/addon-viewport": "^5.0.11",
+    "@storybook/angular": "^5.0.11",
+    "@types/node": "^12.0.0",
+    "@types/storybook__addon-actions": "^3.4.2",
+    "@types/storybook__addon-links": "^3.3.4",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "exports-loader": "^0.7.0",
+    "less-loader": "^5.0.0",
+    "ng-packagr": "^5.1.0",
+    "rxjs": "^6.5.1",
+    "style-loader": "^0.23.1",
+    "ts-node": "^8.1.0",
+    "tslib": "^1.9.3",
+    "typescript": "^3.4.5",
+    "zone.js": "^0.9.1"
+  },
+  "ngPackage": {
+    "lib": {
+      "entryFile": "src/public-api.ts"
+    }
+  },
+  "prettier": {
+    "htmlWhitespaceSensitivity": "ignore",
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "sideEffects": false
+}

@@ -1,0 +1,59 @@
+@import '~@angular/cdk/overlay-prebuilt.css';
+
+.g-tooltip {
+  padding: 7px 15px;
+  line-height: 16px;
+  font-size: 12px;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.16);
+  max-width: 416px;
+  word-wrap: break-word;
+
+  &--default {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+  }
+
+  &--primary {
+    color: #009ce3;
+    background-color: #fff;
+    border-color: #009ce3;
+  }
+
+  &--success {
+    color: #1bb393;
+    background-color: #fff;
+    border-color: #1bb393;
+  }
+
+  &--warning {
+    color: #f8ac58;
+    background-color: #fff;
+    border-color: #f8ac58;
+  }
+
+  &--error {
+    color: #eb6262;
+    background-color: #fff;
+    border-color: #eb6262;
+  }
+
+  &--info {
+    color: #999;
+    background-color: #fff;
+    border-color: #fff;
+  }
+
+  &--end,
+  &--start {
+    margin: 0 4px;
+  }
+
+  &--bottom,
+  &--top {
+    margin: 4px 0;
+  }
+}
