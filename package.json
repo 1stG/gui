@@ -1,0 +1,60 @@
+{
+  "name": "@gui/vue",
+  "version": "0.1.0",
+  "description": "1stG UI system",
+  "repository": "git@github.com:1stg/gui.git",
+  "author": "JounQin <admin@1stg.me>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "start-storybook",
+    "pub": "yarn publish dist"
+  },
+  "peerDependencies": {
+    "tslib": "^1.9.3",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@storybook/addon-a11y": "^5.0.11",
+    "@storybook/addon-actions": "^5.0.11",
+    "@storybook/addon-console": "^1.1.0",
+    "@storybook/addon-knobs": "^5.0.11",
+    "@storybook/addon-links": "^5.0.11",
+    "@storybook/addon-notes": "^5.0.11",
+    "@storybook/addon-storysource": "^5.0.11",
+    "@storybook/addon-viewport": "^5.0.11",
+    "@storybook/vue": "^5.0.11",
+    "@types/node": "^12.0.0",
+    "@types/storybook__addon-actions": "^3.4.2",
+    "@types/storybook__addon-links": "^3.3.4",
+    "@types/storybook__vue": "^5.0.1",
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0",
+    "@vue/babel-preset-jsx": "^1.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-preset-vue": "^2.0.2",
+    "css-loader": "^2.1.1",
+    "exports-loader": "^0.7.0",
+    "less-loader": "^5.0.0",
+    "style-loader": "^0.23.1",
+    "ts-node": "^8.1.0",
+    "tslib": "^1.9.3",
+    "typescript": "^3.4.5",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "zone.js": "^0.9.1"
+  },
+  "babel": {
+    "presets": [
+      "@vue/babel-preset-jsx"
+    ]
+  },
+  "prettier": {
+    "htmlWhitespaceSensitivity": "ignore",
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "sideEffects": false,
+  "dependencies": {}
+}
