@@ -1,6 +1,6 @@
 import { storiesOf } from '@storybook/vue'
 
-import GButton from '../src/GButton'
+import GButton from '../src/Button'
 
 storiesOf('Button', module).add('default', () => ({
   methods: {
